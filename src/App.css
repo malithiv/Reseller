@@ -1,0 +1,74 @@
+/* src/App.css */
+.cards-wrapper {
+  padding: 20px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.card-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Order page styles */
+.order-page {
+  padding: 40px;
+  text-align: center;
+}
+
+.order-page img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.order-form {
+  margin-top: 20px;
+}
+
+.order-form div {
+  margin-bottom: 15px;
+}
+
+.order-btn {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #218838;
+}
